@@ -1,0 +1,17 @@
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile":[
+        "../docker-compose.yml",
+        "docker-compose.yml"
+    ],
+    "service": "python",
+    "workspaceFolder": "/workspace",
+    "settings":{
+        "terminal.integrated.shell.linux": "bin/bash"
+    },
+    "extensions":[
+    ],
+    "shutdownAction": "stopCompose"
+
+
+}

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  python:
+    restart: always
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: 'tensor_flow_test'
+    working_dir: "/workspace"
+    tty: true
+
+    volumes:
+      - ./python_workspace:/workspace
