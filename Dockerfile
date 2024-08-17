@@ -6,7 +6,7 @@ FROM ubuntu:22.04
 # User
 ARG USER_NAME="ryo_udon"
 ARG USER_PASSWORD="ryo_udon"
-ARG PYTHON_VERSION="3.11.4"
+ARG PYTHON_VERSION="3.12.4"
 
 USER root
 
